@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+                name="joke"
+                type="com.example.myapplication.Joke" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            tools:ignore="RtlHardcoded">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="20sp"
+                android:text="@{joke.title}"
+                tools:text="ULAR"
+        />
+
+        <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="20sp"
+                android:text="@{joke.description}"
+                tools:text="Dua ekor ular cilik sedang mengobrol di atas pohon. &quot;Eh, kamu tau gak, kita ini sebenarnya ular yang berbisa atau ular yang tidak berbisa yang langsung menelan makanan seutuhnya setelah membelitnya sampai remuk?&quot; tanya ular pertama. &quot;Lho, emangnya kenapa?&quot;  jawab ular yang lain. &quot; Barusan aku gak sengaja menggigit bibirku sendiri!&quot; "
+        />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

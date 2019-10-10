@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="title">
+        <item> Ular Cilik </item>
+        <item> Mencuri Mangga </item>
+        <item> Penjual Daging </item>
+    </array>
+
+    <array name="description">
+        <item>Dua ekor ular cilik sedang mengobrol di atas pohon. \"Eh, kamu tau gak, kita ini sebenarnya ular yang berbisa atau ular yang tidak berbisa yang langsung menelan makanan seutuhnya setelah membelitnya sampai remuk?\” tanya ular pertama. \”Lho, emangnya kenapa?\”  jawab ular yang lain. \” Barusan aku gak sengaja menggigit bibirku sendiri!\” </item>
+        <item>Suatu hari, seorang anak memanjat pohon mangga, hendak mencuri mangga. Tiba-tiba, ia kepergok sama yang punya pohon.\nPemilik pohon: Hei, sedang apa kamu disitu?\nAnak: (Menjawab dengan gugup) Anu Pak. Saya lagi cari sarang burung.\nPemilik pohon: Buat apa?\nAnak: (Tambah gugup): Eee... buat bikin rujak Pak</item>
+        <item>Suatu pagi lewatlah seorang penjual daging.\"Dagiiing! Dagiiiiiiiinnngg!!!\" teriaknya. Seorang ibu rumah tangga yang ternyata sedang sakit gigi sewot banget mendengar teriakan si tukang daging. \"Hei tukang daging! Lu kagak punya otak ya!!\", katanya si Ibu. \"Wah kebetulan gak punya, Bu. Hari ini daging semua...\"</item>
+    </array>
+</resources>
